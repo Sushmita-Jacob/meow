@@ -8,11 +8,23 @@ body {
 }
 
 img {
-    width: 200px
+    width: 200px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(255, 255, 255);
 }
 
 .catlist {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+}
+
+.catlist .cat {
+    border-style: outset;
+    border-width: 5px;
+    border-color: red;
+    background-color: pink;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 30px;
 }
