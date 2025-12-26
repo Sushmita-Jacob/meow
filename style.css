@@ -40,3 +40,33 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
+.infolist .infostats {
+    border-style: outset;
+    border-width: 3px;
+    border-color: red;
+    background-color: pink;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 40px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 50px;
+    background-color: rgb(3, 16, 78);
+}
+
+ul li {
+    padding: 10px;
+}
+
+ul li a {
+    display: block;
+    color: blue;
+}
+
+ul li a:hover {
+    padding: 20px;
+    background-color: black;
+}
