@@ -70,3 +70,8 @@ ul li a:hover {
     padding: 20px;
     background-color: black;
 }
+
+#contact {
+    width: 1300px;
+    margin: 0 auto;
+}
